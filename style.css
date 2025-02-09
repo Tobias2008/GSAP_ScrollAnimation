@@ -1,0 +1,155 @@
+body {
+    background-image: url(./Images/AlbumCover/BillieEilish/HitMeHardAndSoft.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 13.9%;
+    z-index: 1000;
+    font-weight: bold;
+
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    backdrop-filter: blur(3px);
+    padding: 1%;
+    border-radius: 5px;
+    font-size: 1.7rem;
+}
+
+.nav-item {
+    cursor: pointer;
+    padding: 1%;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+}
+
+.nav-item a:hover {
+    color: rgb(211, 211, 211);
+}
+
+.albumNameHeadline {
+    margin-bottom: -2%;
+}
+
+.dateOfAlbum {
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+
+.artist {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+.album {
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.781);
+    border-radius: 10px;
+
+    margin-bottom: 3%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    min-height: 800px;
+
+}
+
+.albums {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1%;
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.album-images {
+    width: 50%;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.781);
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.albums img {
+    cursor: pointer;
+}
+
+.album-link {
+    transition: all 0.3s;
+    cursor: default;
+}
+
+.album-link img:hover {
+    color: rgb(211, 211, 211);
+    cursor: pointer;
+}
+
+.album-links a {
+    margin-top: 1%;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.album-links a:hover {
+    color: rgb(211, 211, 211);
+    cursor: pointer;
+}
+
+.album-links {
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.genre {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -2.5%;
+}
+
+.get-songs {
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.get-songs:hover {
+    color: rgb(211, 211, 211);
+}
+
+.artist-name {
+    margin-top: 6%;
+}
+
+.songs {
+    margin-bottom: 10%;
+}
